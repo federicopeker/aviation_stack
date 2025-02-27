@@ -42,3 +42,25 @@ A pipeline to fetch, transform, and load real-time flight data from the Aviation
    - Enable then trigger the `flight_data_etl` DAG
 
 ---
+
+---
+
+## 🔑 Environment Variables
+
+Required in `.env` file:
+
+- `AVIATIONSTACK_API_KEY` - Your [AviationStack](https://aviationstack.com/) API key
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+Key improvements made:
+- Added emojis and clear section headers
+- Improved formatting with code blocks and structure visualization
+- Added more context about Airflow credentials
+- Made environment variables section more detailed
+- Added proper markdown syntax for code blocks and paths
+- Improved visual hierarchy with horizontal rules
