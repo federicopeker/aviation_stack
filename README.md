@@ -31,3 +31,14 @@ A pipeline to fetch, transform, and load real-time flight data from the Aviation
    ```
 
 ---
+
+## 🚀 Usage
+
+1. **Access Airflow UI**:
+   - Visit `http://localhost:8081`
+   - Login with default credentials (airflow/airflow)
+
+2. **Trigger ETL Process**:
+   - Enable then trigger the `flight_data_etl` DAG
+
+---
