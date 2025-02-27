@@ -43,6 +43,22 @@ A pipeline to fetch, transform, and load real-time flight data from the Aviation
 
 ---
 
+## 📁 Project Structure
+
+```
+.
+├── Dockerfile                  # Airflow service configuration
+├── docker-compose.yml          # Container orchestration
+├── requirements.txt            # Python dependencies
+├── scripts/
+│   └── etl.py                  # ETL processing logic
+├── db_init/
+│   └── init.sql                # Database schema initialization
+├── notebooks/
+│   └── analyze_flight_data.ipynb  # Data analysis notebook
+└── .env.template               # Environment variables template
+```
+
 ---
 
 ## 🔑 Environment Variables

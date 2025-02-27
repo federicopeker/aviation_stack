@@ -47,5 +47,3 @@ etl_task = PythonOperator(
     python_callable=run_etl,
     dag=dag,
 )
-
-etl_task
